@@ -2,7 +2,7 @@ import streamlit as st
 import altair as alt
 import pandas as pd
 import numpy as np
-
+st.title(':red[Hello], :blue[World]!')
 st.header('sdfjksdfj :green[cool] :balloon:',help='This is a help text.',  anchor=False)
 
 st.caption("This is a string that explains something above.")
