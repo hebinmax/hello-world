@@ -1,0 +1,17 @@
+import streamlit as st
+
+page1 = st.Page('pages/一月.py',title='一月')
+page2 = st.Page('pages/二月.py',title='二月')
+page3 = st.Page('pages/三月.py',title='三月')
+page4 = st.Page('pages/四月.py',title='四月')
+page5 = st.Page('pages/五月.py', title='五月_电影分析')
+page6 = st.Page('pages/六月.py',title='六月')
+page7 = st.Page('pages/七月.py',title='七月')
+page8 = st.Page('pages/八月.py',title='八月_上传文件')
+page9 = st.Page('pages/九月.py',title='九月')
+page10 = st.Page('pages/十月.py',title='十月')
+page11 = st.Page('pages/十一月.py',title='十一月')
+page12 = st.Page('pages/十二月.py',title='十二月')
+pg = st.navigation([page1,page2,page3,page4,page5,page6,page7,page8,page9,page10,page11,page12])
+# pg = st.navigation({"主要功能": [page1, page2]})
+pg.run()
